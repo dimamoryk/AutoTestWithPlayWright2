@@ -1,12 +1,12 @@
 package data;
 
-public enum PopupData {
+public enum LessonData {
 
-    POPUP_DATA("/");
+    LESSON_DATA("/");
 
     private String path;
 
-    PopupData(String path) {
+    LessonData(String path) {
         this.path = path;
     }
 
